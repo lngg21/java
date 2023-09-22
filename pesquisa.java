@@ -12,7 +12,7 @@ public class pesquisa  {
         }
     
     }
-    /*public static int buscaSequencial (int vet[ ], int procurado){
+    public static int buscaSequencial (int vet[ ], int procurado){
         int  i;
         boolean  achou = false;
         for (i = 0; i < vet.length; i++)  
@@ -25,7 +25,7 @@ public class pesquisa  {
         return i;     // retorna a posição onde encontrou a chave}   
      } else {
         return -1;  // retorna -1 indicando que não achou a chave}}
-    }*/
+    }
 
 public static int buscaMelhorada (int vet[ ], int procurado){
     int i;
